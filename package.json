@@ -43,7 +43,8 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "defaultBlueprint": "deploy-config"
+    "defaultBlueprint": "deploy-config",
+    "after": "ember-cli-dotenv"
   },
   "dependencies": {
     "broccoli": "^0.13.2",
